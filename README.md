@@ -2,9 +2,7 @@
 
 Carrera: Programación Universitaria de Sistemas<br>
 Materia: Programación III<br>
-Profesor: Pablo Cavalie
-
-
+Profesor: Pablo Cavalie<br><br><br>
 
 ## _Trabajo Practico Especial_
 
