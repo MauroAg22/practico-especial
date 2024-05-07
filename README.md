@@ -1,10 +1,10 @@
-# _Uinversidad Nacional de Villa Mercedes_
+# *Uinversidad Nacional de Villa Mercedes*
 
 Carrera: Programación Universitaria de Sistemas<br>
 Materia: Programación III<br>
-Profesor: Pablo Cavalie<br><br><br>
+Profesor: Pablo Cavalie<br><br>
 
-## _Trabajo Practico Especial_
+## *Trabajo Practico Especial*
 
 En este trabajo práctico implementamos las primeras 4 unidades del cuatrimestre que son:
 
