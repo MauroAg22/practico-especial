@@ -1,7 +1,7 @@
 # Uinversidad Nacional de Villa Mercedes
 
-Carrera: Programación Universitaria de Sistemas\n
-Materia: Programación III\n
+Carrera: Programación Universitaria de Sistemas<br>
+Materia: Programación III<br>
 Profesor: Pablo Cavalie
 
 ## Trabajo Practico Especial
