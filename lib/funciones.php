@@ -26,3 +26,28 @@ function cantidadDeLetras(array $arregloLetras, string $unaLetra) {
     }
     return $cantLetras;
 }
+
+function arregloAsociatvoLetras(array $arregloLetras) {
+    $arregloAsociatvo = [];
+
+    foreach ($arregloLetras as $letra) {
+        $existe = false;
+        $letraTemporal = "";
+
+        foreach ($arregloAsociatvo as $key => $value) {
+            if ($key == $letra) {
+                $existe = true;
+                $letraTemporal = $letra;
+                break;
+            }
+        }
+
+        if ($existe) {
+            $arregloAsociatvo[$letraTemporal] += 1;
+        } else {
+            $arregloAsociatvo += [$letra => 1];
+        }
+    }
+
+    return $arregloAsociatvo;
+}
