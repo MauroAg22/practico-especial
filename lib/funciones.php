@@ -16,3 +16,13 @@ function estaEnArreglo(array $arregloLetras, string $unaLetra) {
     }
     return $letraEnArreglo;
 }
+
+function cantidadDeLetras(array $arregloLetras, string $unaLetra) {
+    $cantLetras = 0;
+    foreach ($arregloLetras as $value) {
+        if ($value == strtolower($unaLetra)) {
+            $cantLetras++;
+        }
+    }
+    return $cantLetras;
+}
