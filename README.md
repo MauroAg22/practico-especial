@@ -11,4 +11,4 @@ En este trabajo práctico implementamos las primeras 4 unidades del cuatrimestre
 - Introducción al lenguaje PHP.
 - Operadores, condicionales, switch e iteraciones.
 - Programación modular, funciones y procedimientos, parametros, arreglos, matrices y manipulación.
-- Include, require, cadenas y funciones de las mismas, comillas, "\", fechas y formatos.
+- Include, require, cadenas y funciones de las mismas, comillas, "\\", fechas y formatos.
