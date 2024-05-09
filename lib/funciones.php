@@ -1,5 +1,9 @@
 <?php
 
+$arregloAsociatvoGlobal = [];
+$cantidadLetrasGeneradas = 100;
+
+
 function letra_random() {
     $min = 97; // a
     $max = 122; // z
@@ -28,26 +32,21 @@ function cantidadDeLetras(array $arregloLetras, string $unaLetra) {
 }
 
 function arregloAsociatvoLetras(array $arregloLetras) {
-    $arregloAsociatvo = [];
+    global $arregloAsociatvoGlobal;
 
     foreach ($arregloLetras as $letra) {
-        $existe = false;
-        $letraTemporal = "";
-
-        foreach ($arregloAsociatvo as $key => $value) {
-            if ($key == $letra) {
-                $existe = true;
-                $letraTemporal = $letra;
-                break;
-            }
-        }
-
-        if ($existe) {
-            $arregloAsociatvo[$letraTemporal] += 1;
+        if (isset($arregloAsociatvoGlobal[$letra])) {
+            $arregloAsociatvoGlobal[$letra]['cantidad'] += 1;
         } else {
-            $arregloAsociatvo += [$letra => 1];
+            $arregloAsociatvoGlobal[$letra] = ['cantidad' => 1, 'porcentaje' => 0];
         }
     }
-
-    return $arregloAsociatvo;
 }
+
+function porcentaje_de_letras(array &$arregloAsociatvo) {
+    global $cantidadLetrasGeneradas;
+    foreach ($arregloAsociatvo as &$letra) {
+        $letra['porcentaje'] = ($letra['cantidad'] * 100) / $cantidadLetrasGeneradas;
+    }
+}
+

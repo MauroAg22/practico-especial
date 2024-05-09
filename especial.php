@@ -4,16 +4,16 @@ include "lib/funciones.php";
 
 $ar_letras = [];
 
-for ($i=0; $i < 100; $i++) { 
+for ($i=0; $i < $cantidadLetrasGeneradas; $i++) { 
     $ar_letras[] = letra_random();
 }
 
 
 
-
-
 //*  PRUEBAS
 
-print_r($ar_letras);
+arregloAsociatvoLetras($ar_letras);
 
-print_r(arregloAsociatvoLetras($ar_letras));
+porcentaje_de_letras($arregloAsociatvoGlobal);
+
+print_r($arregloAsociatvoGlobal);
