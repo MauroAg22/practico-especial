@@ -1,12 +1,14 @@
-# *Uinversidad Nacional de Villa Mercedes*
+# Uinversidad Nacional de Villa Mercedes
 
 Carrera: Programación Universitaria de Sistemas<br>
 Materia: Programación III<br>
-Profesor: Pablo Cavalie<br><br>
+Profesor: Pablo Cavalie<br>
+Alumno: Mauro Agustín Lucero<br>
+Año: 2024<br><br>
 
-## *Trabajo Práctico Especial*
+## Trabajo Práctico Especial
 
-En este trabajo práctico implementamos las primeras 4 unidades del cuatrimestre que son:
+En este trabajo práctico implementamos las primeras 4 unidades desarrolladas en el cuatrimestre que son:
 
 - Introducción al lenguaje PHP.
 - Operadores, condicionales, switch e iteraciones.
