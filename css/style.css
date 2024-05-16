@@ -25,6 +25,7 @@ h1 {
     border: 1px solid #222;
     border-radius: 8px;
     text-align: center;
+    font-size: large;
 }
 
 ul li ul {
@@ -39,11 +40,19 @@ ul li ul {
     .ul-general {
         grid-template-columns: 1fr 1fr 1fr;
     }
+
+    .li-general {
+        font-size: x-large;
+    }
 }
 
 @media (width < 800px) {
     .ul-general {
         grid-template-columns: 1fr 1fr;
+    }
+
+    .li-general {
+        font-size: xx-large;
     }
 }
 
