@@ -5,15 +5,15 @@ $cantidadLetrasGeneradas = 100;
 
 
 function letra_random() {
-    $min = 97; // a
-    $max = 122; // z
+    $min = 65; // A
+    $max = 90; // Z
     return chr(rand($min, $max));
 }
 
 function estaEnArreglo(array $arregloLetras, string $unaLetra) {
     $letraEnArreglo = false;
     foreach ($arregloLetras as $value) {
-        if ($value == strtolower($unaLetra)) {
+        if ($value == strtoupper($unaLetra)) {
             $letraEnArreglo = true;
             break;
         }
